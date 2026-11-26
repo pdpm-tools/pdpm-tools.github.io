@@ -258,7 +258,7 @@ const NURS_ITEMS={
 
 /* ===================== STATE ===================== */
 function defaultState(){
-  const s={cat:'MEDMGMT',cogMethod:'bims',bims:15,cps:0,phq:0,restorative:0,swallow:false,mad:false,ggMode:'calc',ptotIdx:'10',nfDirect:8,slpMode:'calc',slpCI:false,slpComX:false,slpNeuro:false,bscpCog:false};
+  const s={cat:'MEDMGMT',cogMethod:'bims',bims:15,cps:0,phq:0,restorative:0,swallow:false,mad:false,ggMode:'direct',ptotIdx:'10',nfDirect:12,slpMode:'direct',slpCI:false,slpComX:false,slpNeuro:false,bscpCog:false};
   GG.forEach(g=>s[g[0]]='01');
   return s;
 }
